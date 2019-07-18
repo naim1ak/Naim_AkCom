@@ -1,19 +1,15 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="tr-TR">
 
 <head>
-  <title>Bootstrap Start</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <style>
-    #demo {
-      background-color: #333333
-    }
-  </style>
+  <title>Naim Ak Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
@@ -25,6 +21,7 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -76,6 +73,7 @@
       <a class="carousel-control-next" href="#demo" data-slide="next">
         <span class="carousel-control-next-icon"></span>
       </a>
+
     </div>
     <div class="row my-2">
       <div class="col-3">
@@ -83,7 +81,7 @@
           <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
             aria-controls="v-pills-home" aria-selected="true">C#</a>
           <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-            aria-controls="v-pills-profile" aria-selected="false">.Net Core</a>
+            aria-controls="v-pills-profile" aria-selected="false">.NET Core</a>
           <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
             aria-controls="v-pills-messages" aria-selected="false">Angular</a>
           <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
@@ -93,99 +91,48 @@
       <div class="col-9">
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-            <div class="card-group">
-              <div class="card d-block" style="width: 18rem;">
-                <img src="images/hospital,_green.jpg" class="card-img-top" alt="Hastane Randevu Sistemi">
-                <div class="card-body">
-                  <h5 class="card-title">Randevu Sistemi</h5>
-                  <p class="card-text">Hastaların istediği doktorlardan randevu alabilmelerşnş sağlayan uygulamadır.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card d-block" style="height:380px;">
+                  <img src="images/hospital,_green.jpg" class="card-img-top" alt="Hastane Randevu Sistemi">
+                  <div class="card-body">
+                    <h5 class="card-title">Randevu Sistemi</h5>
+                    <p class="card-text">Hastaların istediği hastanedeki doktordan randevu alabilmelerini sağlayan
+                      uygulamadır.</p>
+                    <a href="#" class="btn btn-primary" style="position:absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+                  </div>
                 </div>
               </div>
-              <div class="card d-block" style="width: 18rem;">
-                <img src="images/Library_Middle002.jpg" class="card-img-top" alt="Kütüphane Yazılımı">
-                <div class="card-body">
-                  <h5 class="card-title">Kütüphane Yazılımı</h5>
-                  <p class="card-text">Bir kütüphane bünyesinde tüm kitapların kaydedilmesini sağlayan uygulamdır.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+              <div class="col-md-4">
+                <div class="card d-block" style="height:380px;">
+                  <img src="images/Library_Middle002.jpg" class="card-img-top" alt="Kütüphane Yazılımı">
+                  <div class="card-body">
+                    <h5 class="card-title">Kütüphane Yazılımı</h5>
+                    <p class="card-text">Bir kütüphane bünyesinde tüm kitapların kaydedilmesini sağlayan uygulamadır.
+                    </p>
+                    <a href="#" class="btn btn-primary" style="position:absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+                  </div>
                 </div>
               </div>
-              <div class="card d-block" style="width: 18rem;">
-                <img src="images/microsoft_word_logo_primary-resized-100754413-large.jpg" class="card-img-top"
-                  alt="kelime işlemcisi Yazılımı">
-                <div class="card-body">
-                  <h5 class="card-title">Kelime İşlemcisi</h5>
-                  <p class="card-text">WordPad benzeri yerli kelime işlemci yazılımıdır.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+              <div class="col-md-4">
+                <div class="card d-block" style="height:380px;">
+                  <img src="images/microsoft_word_logo_primary-resized-100754413-large.jpg" class="card-img-top"
+                    alt="Kelime İşlemci">
+                  <div class="card-body">
+                    <h5 class="card-title">Kelime İşlemci</h5>
+                    <p class="card-text">WordPad benzeri yerli kelime işlemci yazılımdır.</p>
+                    <a href="#" class="btn btn-primary" style="position:absolute;bottom:10px;right:15px;">Ayrıntılar</a>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
-          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            <div class="card-group">
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar/a>
-                </div>
-              </div>
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...
           </div>
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-            <div class="card-group">
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
-                </div>
-              </div>
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...
           </div>
-          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-            <div class="card-group">
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
-                </div>
-              </div>
-              <div class="card d-block" style="width: 18rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card's content.</p>
-                  <a href="#" class="btn btn-primary" style="position: absolute;bottom:10px;right:15px;">Ayrıntılar</a>
-                </div>
-              </div>
-            </div>
+          <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...
           </div>
         </div>
       </div>
@@ -193,43 +140,48 @@
     <footer class="footer bg-dark text-light p-3">
       <div class="row">
         <div class="col-md-3">
-          <h5>Hakkımda</h5>
-          <p>Bu Benim Kişisel Websitem</p>
+          <h5>Hakkında</h5>
+          <p>Bu benim kişisel web sitemdir.</p>
+          <div class="social-media">
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com/naim1ak"><i class="fab fa-github"></i></a>
+          </div>
         </div>
         <div class="col-md-3">
           <h5>Bağlantılar</h5>
           <ul>
-            <li>link1</li>
-            <li>link2</li>
+            <li><a href="/about.html">Hakkımda</a></li>
+            <li><a href="/projects.html">Projelerim</a></li>
+            <li><a href="/contact.html">İletişim</a></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h5>KVKK</h5>
+          <h5>Bilgilendirmeler</h5>
           <ul>
             <li>Çerez Kullanımı</li>
-            <li>Kullanımı Koşulları</li>
+            <li>Kullanım Koşulları</li>
             <li>Gizlilik Politikası</li>
             <li>KVKK Aydınlatma Metni</li>
           </ul>
         </div>
         <div class="col-md-3">
-          <h5>KVKK</h5>
-          <ul>
-            <li>Telif Hakkı</li>
-            <li>© 2019-Her hakkı saklıdır.</li>
-          </ul>
+          <h5>Telif Hakkı</h5>
+          <p>&copy; 2019 - Her hakkı saklıdır.</p>
         </div>
       </div>
     </footer>
   </div>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
 </body>
 
